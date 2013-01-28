@@ -1,0 +1,79 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#wrapper {
+	width: 1000px;
+	margin: auto;
+}
+#banner {
+	width: 1000px;
+	height: 150px;
+	margin-top: 20px;
+	background: url('/assets/plitebanner.gif');
+}
+#contact {
+	font-size: 150%;
+	float: right;
+	padding-right: 10px;
+}
+#contact a {
+	color: #000000;
+	text-decoration: underline;
+}
+#mainContent {
+	width: 1000px;
+}
+#contentBox {
+	border-bottom: 1px solid #999999;
+	height: 250px;
+	width: 1000px;
+	float: left;
+}
+#contentBox h1 {
+	float: left;
+}
+#contentDescription {
+	float: left;
+	width: 580px;
+	clear: left;
+}
+img {
+	float: right;
+	width: 300px;
+	margin-top: -50px;
+}
+fieldset {
+	margin-left: 10px;
+	width: 500px;
+	margin-bottom: 10px;
+}
+input {
+	clear: both;
+}
+.submit {
+	margin-left: 10px;
+}
+#footer {
+	text-align: center;
+	font-size: small;
+	margin-top: 30px;
+}
+#footer a {
+	color: #000000;
+}

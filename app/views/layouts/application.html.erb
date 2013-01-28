@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patrick Lighthall</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div id="header" >
+		<link rel= "shortcut icon" href="/assets/plitelogo.jpg"/>
+	</div>
+	<div id="wrapper">
+		<div id="banner">
+		</div>
+		<%= yield %>
+		<div id="footer">
+			Patrick Lighthall<br />
+			(269) 832-1734<br />
+			<%= link_to "Black Sails Studio", ("http://www.blacksailsstudio.com") %>
+		</div>
+	</div><!-- end wrapper -->
+</body>
+</html>
